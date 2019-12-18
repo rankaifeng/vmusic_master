@@ -1,0 +1,30 @@
+@width     : 100%;
+@height    : 100%;
+@countdownW: 3rem;
+@countdownH: 1rem;
+@blue      : #3190e8;
+@bc        : #e4e4e4;
+@fc        : #fff;
+@border    : 0.1rem solid red;
+@background: red;
+
+.fill() {
+    width : @width;
+    height: @height;
+}
+
+.bg_img(@url) {
+    .fill();
+    position       : fixed;
+    background     : url(@url) no-repeat;
+    background-size: @width @height;
+}
+
+.positioning {
+    position : fixed;
+    font-size: 0.5rem;
+    right    : 0;
+    top      : 0.6rem;
+    right    : 0.6rem;
+    color    : @fc;
+}

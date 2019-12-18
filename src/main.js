@@ -2,6 +2,7 @@ import Vue from 'vue'
 import RootPatch from '@/components/RootPath.vue'
 import router from '../router'
 import Vant from 'vant';
+import './config/rem'
 import 'vant/lib/index.css';
 Vue.config.productionTip = false
 Vue.use(Vant);
